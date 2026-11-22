@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Content Categories / ប្រភេទខ្លឹមសារ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-layer-group spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">ប្រភេទខ្លឹមសារ / Content Categories</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-card">
+            <div class="badge">🗂️ UNIVERSE HUOKAING THARA • CONTENT TAXONOMY</div>
+            <h2 class="km">ចាត់ថ្នាក់ប្រភេទខ្លឹមសារ កម្មវិធី និងទម្រង់ផលិតកម្ម</h2>
+            <h2 class="en">Content Categories, Formats & Audience Taxonomy</h2>
+            <p class="km">
+                រុករកប្រភេទខ្លឹមសារទាំងអស់របស់ <strong>UNIVERSE HUOKAING THARA Group</strong> ចាប់ពីភាពយន្ត និងនិទានរឿងខ្មោចខ្មែរ រហូតដល់វីដេអូកំប្លែង តន្ត្រី កម្មវិធីពិសេស និងកញ្ចប់ផ្សព្វផ្សាយពាណិជ្ជកម្ម ដោយមានការរួមចំណែកពីលោក <strong>ជອນ រតនៈ</strong> និងក្រុមអ្នកសរសេរកូដជំនាញ។
+            </p>
+            <p class="en">
+                Browse every content category under <strong>UNIVERSE HUOKAING THARA Group</strong>—from cinema and Khmer ghost stories to comedy pranks, music, specials, and ad placements—supported by contributor <strong>Mr. Chorn Rothanak</strong> and our elite programmers & developers.
+            </p>
+
+            <!-- Search & Group Filter Bar -->
+            <div class="search-filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="categorySearch" placeholder="ស្វែងរកប្រភេទ... / Search categories, formats, tags...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="storytelling">Story & Film / រឿង & ភាពយន្ត</button>
+                    <button class="pill-btn" data-filter="entertainment">Entertainment / កម្សាន្ត</button>
+                    <button class="pill-btn" data-filter="commercial">Commercial / ពាណិជ្ជកម្ម</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Grid -->
+        <section class="categories-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-tags"></i>
+                <span class="km">បញ្ជីប្រភេទខ្លឹមសារ (Content Categories Directory)</span>
+                <span class="en">Content Categories Directory</span>
+            </h3>
+
+            <div class="categories-grid" id="categoriesGrid">
+
+                <!-- Cat 1: Movies & Cinema -->
+                <article class="cat-card featured" data-cat="storytelling">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 01 • CINEMA</span>
+                        <span class="count-pill">Screen & Series</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-film"></i></div>
+                    <h4 class="km">ភាពយន្ត និងរឿងភាគ (Movies & Films)</h4>
+                    <h4 class="en">Movies & Narrative Films</h4>
+                    <p class="km">រឿងភាគ ភាពយន្តខ្លី និងស្នាដៃភាពយន្តសម្រាប់ការចាក់បញ្ចាំង និងទស្សនាឌីជីថល។</p>
+                    <p class="en">Feature narratives, short films, and screen productions for cinema and online viewing.</p>
+                    <button class="inspect-btn"
+                        data-title="Movies & Narrative Films / ភាពយន្ត"
+                        data-group="Story & Film"
+                        data-audience="General & Cinema Audiences"
+                        data-ad="Title Sponsor, Premiere & Scene Placement">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+                <!-- Cat 2: Ghost Stories Khmer -->
+                <article class="cat-card" data-cat="storytelling">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 02 • FOLKLORE</span>
+                        <span class="count-pill">Horror & Eerie</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-ghost"></i></div>
+                    <h4 class="km">និទានរឿងខ្មោចខ្មែរ (Ghost Stories Khmer)</h4>
+                    <h4 class="en">Ghost Stories Khmer</h4>
+                    <p class="km">អប្បិយជំនឿ រឿងព្រេង បទពិសោធន៍ផ្ទាល់ និងរឿងយប់ជ្រៅ ជាមួយលោក ជອນ រតនៈ។</p>
+                    <p class="en">Khmer folklore, real-life eerie encounters, and midnight tales with Mr. Chorn Rothanak.</p>
+                    <button class="inspect-btn"
+                        data-title="Ghost Stories Khmer / និទានរឿងខ្មោចខ្មែរ"
+                        data-group="Story & Film"
+                        data-audience="Nighttime & Suspense Listeners"
+                        data-ad="Episode Sponsor & Audio/Reader Placement">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+                <!-- Cat 3: Comedy & Pranks -->
+                <article class="cat-card" data-cat="entertainment">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 03 • COMEDY</span>
+                        <span class="count-pill">Sketches & Pranks</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-masks-theater"></i></div>
+                    <h4 class="km">កំប្លែង និង Pranks (Comedy & Pranks)</h4>
+                    <h4 class="en">Comedy Sketches & Pranks</h4>
+                    <p class="km">ឈុតឆាកកំប្លែង ការលេងសើចសប្បាយ និងវីដេអូកម្សាន្តដែលទាក់ទាញអ្នកទស្សនា។</p>
+                    <p class="en">Upbeat sketches, playful pranks, and high-energy entertainment segments.</p>
+                    <button class="inspect-btn"
+                        data-title="Comedy Sketches & Pranks / កំប្លែង"
+                        data-group="Entertainment"
+                        data-audience="Youth & Broad Social Viewers"
+                        data-ad="Mid-Roll Shoutout & Prop Integration">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+                <!-- Cat 4: Music & Audio Visual -->
+                <article class="cat-card" data-cat="entertainment">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 04 • MUSIC</span>
+                        <span class="count-pill">Tracks & MV</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-music"></i></div>
+                    <h4 class="km">តន្ត្រី និងវីដេអូចម្រៀង (Music & Audio)</h4>
+                    <h4 class="en">Music & Audio Visuals</h4>
+                    <p class="km">បទចម្រៀង ភ្លេងประกอบ និងវីដេអូតន្ត្រីសម្រាប់បទពិសោធន៍សំឡេងពេញលេញ។</p>
+                    <p class="en">Songs, original scores, and visual music releases across our media channels.</p>
+                    <button class="inspect-btn"
+                        data-title="Music & Audio Visuals / តន្ត្រី"
+                        data-group="Entertainment"
+                        data-audience="Music & Lifestyle Fans"
+                        data-ad="Visual Co-Branding & Soundtrack Credit">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+                <!-- Cat 5: Live Events & Specials -->
+                <article class="cat-card" data-cat="entertainment">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 05 • EVENTS</span>
+                        <span class="count-pill">Meetups & Specials</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-star"></i></div>
+                    <h4 class="km">កម្មវិធីពិសេស និងជំនួបតារា (Specials & Events)</h4>
+                    <h4 class="en">Special Events & Cast Meetups</h4>
+                    <p class="km">ការជួបជុំតារាភាពយន្ត ការចាក់បញ្ចាំងពិសេស និងកម្មវិធីសម្ពោធផលិតកម្មថ្មីៗ។</p>
+                    <p class="en">Cast appearances, special cinema screenings, and milestone production launches.</p>
+                    <button class="inspect-btn"
+                        data-title="Special Events & Cast Meetups / កម្មវិធីពិសេស"
+                        data-group="Entertainment"
+                        data-audience="Fans, Press & Event Attendees"
+                        data-ad="Event Booth, Banner & VIP Spotlight">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+                <!-- Cat 6: Sponsored & Commercial -->
+                <article class="cat-card" data-cat="commercial">
+                    <div class="card-top">
+                        <span class="cat-code">CAT 06 • COMMERCIAL</span>
+                        <span class="count-pill">Brand Campaigns</span>
+                    </div>
+                    <div class="cat-icon"><i class="fa-solid fa-bullhorn"></i></div>
+                    <h4 class="km">ផ្សព្វផ្សាយពាណិជ្ជកម្ម (Sponsored & Ads)</h4>
+                    <h4 class="en">Sponsored & Brand Campaigns</h4>
+                    <p class="km">កញ្ចប់ផ្សព្វផ្សាយសម្រាប់អាជីវកម្ម និងដៃគូ តាមស្តង់ដាររបស់ UNIVERSE HUOKAING THARA។</p>
+                    <p class="en">Structured commercial placements and brand partnerships under group guidelines.</p>
+                    <button class="inspect-btn"
+                        data-title="Sponsored & Brand Campaigns / ពាណិជ្ជកម្ម"
+                        data-group="Commercial"
+                        data-audience="Business & Consumer Markets"
+                        data-ad="Starter, Standard, VIP Sponsor & Enterprise">
+                        <span class="km">មើលលក្ខណៈប្រភេទ</span> / <span class="en">View Category Spec</span>
+                    </button>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Category Spec Modal -->
+    <div id="catModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">CATEGORY SPECIFICATION</span>
+            <h3 id="modalCatTitle">Category Title</h3>
+            <div class="modal-body">
+                <p><strong>Taxonomy Group:</strong> <span id="modalGroup" class="accent-txt"></span></p>
+                <p><strong>Primary Audience:</strong> <span id="modalAudience"></span></p>
+                <p><strong>Ad & Sponsor Formats:</strong> <span id="modalAd"></span></p>
+            </div>
+            <button id="closeCatModal" class="control-btn full-width">
+                <span class="km">បិទផ្ទាំង</span> / <span class="en">Close</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
